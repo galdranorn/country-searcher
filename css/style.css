@@ -1,84 +1,29 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Montserrat;
-}
+* { margin: 0; box-sizing: border-box; font-family: Montserrat; }
 
-main {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
+main { width: 80%; margin: 0 auto; text-align: center; }
 
-main .globe {
-  width: 100px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
+main .globe { width: 100px; position: absolute; top: 30px; left: 30px; }
 
-main input, main button {
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
+main input, main button { padding: 5px; border: 1px solid black; border-radius: 5px; }
 
-main input {
-  margin: 10px;
-}
+main input { margin: 10px; }
 
-main button {
-  margin-bottom: 30px;
-  background: white;
-  transition: .2s;
-}
+main button { margin-bottom: 30px; background: white; transition: .2s; }
 
-main button:hover {
-  background: black;
-  color: white;
-  cursor: pointer;
-}
+main button:hover { background: black; color: white; cursor: pointer; }
 
-main #countries {
-  list-style-type: none;
-  text-align: left;
-}
+main #countries { list-style-type: none; text-align: left; }
 
-main #countries .country-heading {
-  background: linear-gradient(lightgray, white);
-  border-radius: 10px;
-  height: 80px;
-  margin: 20px;
-}
+main #countries .country-heading { background: linear-gradient(lightgray, white); border-radius: 10px; height: 80px; margin: 20px; }
 
-main #countries .country-heading img {
-  height: 60px;
-  width: 96px;
-  display: inline-block;
-}
+main #countries .country-heading img { height: 60px; width: 96px; display: inline-block; }
 
-main #countries .country-heading h3 {
-  display: inline-block;
-  font-size: 30px;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
-}
+main #countries .country-heading h3 { display: inline-block; font-size: 30px; position: relative; bottom: 20px; left: 20px; }
 
-main #countries div {
-  padding: 10px;
-}
+main #countries div { padding: 10px; }
 
-main #countries .properties, main #countries .values {
-  display: inline-block;
-  list-style-type: none;
-}
+main #countries .properties, main #countries .values { display: inline-block; list-style-type: none; }
 
-main #countries .properties {
-  width: 30%;
-}
+main #countries .properties { width: 30%; }
 
-main #countries .values {
-  width: 65%;
-}
-/*# sourceMappingURL=style.css.map */
+main #countries .values { width: 65%; }
